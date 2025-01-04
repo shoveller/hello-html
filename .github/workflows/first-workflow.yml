@@ -5,4 +5,6 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             - name: hello_world
-              run: echo "Hello, World!"
+              run: |
+                echo "Hello, World!"
+                echo "두 줄을 순차 실행할 수 있다"
